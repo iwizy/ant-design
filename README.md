@@ -19,7 +19,7 @@
 
 An enterprise-class UI design language and React-based implementation.
 
-[中文 README](README-zh_CN.md) | [Русский README](README-ru_RU.md)
+[中文 README](README-zh_CN.md) | [Русский README](README.ru_RU.md)
 
 ## 3.0 Released Now! :tada::tada::tada:
 
