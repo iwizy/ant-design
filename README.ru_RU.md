@@ -17,82 +17,82 @@
 [![Gitter](https://badges.gitter.im/ant-design/ant-design-english.svg)](https://gitter.im/ant-design/ant-design-english?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) (English)
 [![Join the chat at https://gitter.im/ant-design/ant-design](https://img.shields.io/gitter/room/ant-design/ant-design.svg?style=flat-square)](https://gitter.im/ant-design/ant-design?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)（中文）
 
-An enterprise-class UI design language and React-based implementation.
+Интерфейсная библиотека корпоративного класса на React.
 
 [中文 README](README-zh_CN.md) | [English README](README.md)
 
-## 3.0 Released Now! :tada::tada::tada:
+## Версия 3.0 вышла! :tada::tada::tada:
 
 [Announcing Ant Design 3.0](https://medium.com/ant-design/announcing-ant-design-3-0-70e3e65eca0c)
 
-## Features
+## Возможности
 
-- An enterprise-class UI design system for desktop applications.
-- A set of high-quality React components out of the box.
-- Written in TypeScript with predictable static types.
-- The whole package of development and design resources and tools.
+- Дизайн-система корпоративного класса для настольных приложений.
+- Набор высококачественных React-компонентов "из коробки".
+- Написан на TypeScript с предсказуемыми статическими типами.
+- Полный пакет из кода, дизайн-ресурсов и инструментов.
 
-## Environment Support
+## Поддержка сред
 
-* Modern browsers and Internet Explorer 9+ (with [polyfills](https://ant.design/docs/react/getting-started#Compatibility))
-* Server-side Rendering
+* Современные браузеры и Internet Explorer 9+ (с [polyfills](https://ant.design/docs/react/getting-started#Compatibility))
+* Рендеринг на стороне сервера
 * [Electron](http://electron.atom.io/)
 
 | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" alt="IE / Edge" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>IE / Edge | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" alt="Firefox" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Firefox | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" alt="Chrome" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Chrome | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png" alt="Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Safari | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/opera/opera_48x48.png" alt="Opera" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Opera | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/electron/electron_48x48.png" alt="Electron" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Electron |
 | --------- | --------- | --------- | --------- | --------- | --------- |
-| IE9, IE10, IE11, Edge| last 2 versions| last 2 versions| last 2 versions| last 2 versions| last 2 versions
+| IE9, IE10, IE11, Edge| последние 2 версии| последние 2 версии| последние 2 версии| последние 2 версии| последние 2 версии
 
-## Let's build a better antd together [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+## Давайте вместе сделаем antd лучше [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-Read our [contributing guide](https://ant.design/docs/react/contributing).
+Прочитайте нашу [инструкцию по распространению](https://ant.design/docs/react/contributing).
 
-## Install
+## Установка
 
 ```bash
 npm install antd --save
 ```
 
-## Usage
+## Использование
 
 ```jsx
 import { DatePicker } from 'antd';
 ReactDOM.render(<DatePicker />, mountNode);
 ```
 
-And import style manually:
+Импортируйте стили вручную:
 
 ```jsx
 import 'antd/dist/antd.css';  // or 'antd/dist/antd.less'
 ```
 
-Or [import components on demand](https://ant.design/docs/react/getting-started#Import-on-Demand)
+Или [импортируйте компоненты по запросу](https://ant.design/docs/react/getting-started#Import-on-Demand)
 
 ### TypeScript
 
-See [Use in TypeScript](https://ant.design/docs/react/use-in-typescript)
+Смотрите [Использование TypeScript](https://ant.design/docs/react/use-in-typescript)
 
-## Internationalization
+## Мультиязычность
 
-See [i18n](http://ant.design/docs/react/i18n).
+Смотрите [i18n](http://ant.design/docs/react/i18n).
 
-## Links
+## Ссылки
 
-- [Home page](http://ant.design/)
-- [Components](http://ant.design/docs/react/introduce)
+- [Домашняя страница](http://ant.design/)
+- [Компоненты](http://ant.design/docs/react/introduce)
 - [Ant Design Pro](http://pro.ant.design/)
-- [Change Log](CHANGELOG.en-US.md)
+- [История изменений](CHANGELOG.en-US.md)
 - [Scaffold Market](http://scaffold.ant.design)
 - [rc-components](http://react-component.github.io/)
-- [Mobile UI](http://mobile.ant.design)
-- [Motion](https://motion.ant.design)
-- [Developer Instruction](https://github.com/ant-design/ant-design/wiki/Development)
-- [Versioning Release Note](https://github.com/ant-design/ant-design/wiki/%E8%BD%AE%E5%80%BC%E8%A7%84%E5%88%99%E5%92%8C%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83%E6%B5%81%E7%A8%8B)
+- [Мобильный UI](http://mobile.ant.design)
+- [Ant Motion](https://motion.ant.design)
+- [Документация разработчика](https://github.com/ant-design/ant-design/wiki/Development)
+- [Информация по релизам](https://github.com/ant-design/ant-design/wiki/%E8%BD%AE%E5%80%BC%E8%A7%84%E5%88%99%E5%92%8C%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83%E6%B5%81%E7%A8%8B)
 - [FAQ](https://github.com/ant-design/ant-design/wiki/FAQ)
-- [CodeSandbox Template](https://u.ant.design/codesandbox-repro) for bug reports
+- [Шаблон CodeSandbox](https://u.ant.design/codesandbox-repro) для фиксации багов
 - [Awesome Ant Design](https://github.com/websemantics/awesome-ant-design)
-- [Customize Theme](http://ant.design/docs/react/customize-theme)
+- [Кастомизация тем](http://ant.design/docs/react/customize-theme)
 
-## Development
+## Разработка
 
 ```bash
 $ git clone git@github.com:ant-design/ant-design.git
@@ -101,8 +101,8 @@ $ npm install
 $ npm start
 ```
 
-Open your browser and visit http://127.0.0.1:8001 , see more at [Development](https://github.com/ant-design/ant-design/wiki/Development).
+Откройте ваш брайзер и перейдите по ссылке http://127.0.0.1:8001 , читайте дополнительно в [Разработка](https://github.com/ant-design/ant-design/wiki/Development).
 
-## Contributing
+## Распространение
 
-We welcome all contributions. Please read our [CONTRIBUTING.md](https://github.com/ant-design/ant-design/blob/master/.github/CONTRIBUTING.md) first. You can submit any ideas as [pull requests](https://github.com/ant-design/ant-design/pulls) or as [GitHub issues](https://github.com/ant-design/ant-design/issues). If you'd like to improve code, check out the [Development Instructions](https://github.com/ant-design/ant-design/wiki/Development) and have a good time! :)
+Мы приветствуем любые варианты распространения. Почитайте [CONTRIBUTING.md](https://github.com/ant-design/ant-design/blob/master/.github/CONTRIBUTING.md) для начала. Вы можете отправлять любые идеи через [pull-реквесты](https://github.com/ant-design/ant-design/pulls) или [GitHub issues](https://github.com/ant-design/ant-design/issues). Если вы хотите усовершенствовать код, изучите [Документацию разработчика](https://github.com/ant-design/ant-design/wiki/Development) и проведите хорошо время! :)
